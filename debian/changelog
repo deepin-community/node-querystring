@@ -1,0 +1,56 @@
+node-querystring (0.2.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 0.2.1
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 16:52:13 +0100
+
+node-querystring (0.2.0-5) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-querystring: Add Multi-Arch: foreign.
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-tap and nodejs.
+    + node-querystring: Drop versioned constraint on nodejs in Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 02:09:48 +0100
+
+node-querystring (0.2.0-4) unstable; urgency=medium
+
+  * Simplify debci.
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 23 Sep 2019 00:06:33 +0200
+
+node-querystring (0.2.0-3) unstable; urgency=medium
+
+  * Move to /usr/share
+  * Bump debhelper and policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 20 Sep 2019 15:56:49 +0200
+
+node-querystring (0.2.0-2) unstable; urgency=medium
+
+  * Move to salsa
+  * Run testsuite
+  * Use CI
+  * Bump compat and policy (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 30 May 2018 23:11:27 +0200
+
+node-querystring (0.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #858566)
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 23 Mar 2017 22:04:03 +0100
